@@ -1,1 +1,135 @@
 nav,footer,header,aside{display: block;}
+html {
+    scroll-behavior: smooth; 
+    overflow-anchor: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+}
+.container-header-nav   {
+    max-width: auto;
+    margin: -3em;
+}
+.container-header-nav-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.body-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.body-conteiner-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bode-name, h2 {
+    font-size: 3em;
+    margin: 5%;
+    padding-left: 20%;
+}
+.bode-name {
+    font-size: 5em;
+}
+.header-text-h2 {
+    font-size: 5em;
+    margin-bottom: 9.8%;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:center;
+    align-content:space-between
+}
+.side-contact {
+    margin: 1%;
+}
+aside, header, footer {
+    background: linear-gradient(to top, #fefcea, #f1da36);
+}
+h3 {
+    font-size: 3em;
+    margin: auto;  
+    background: linear-gradient(to top, #fefcea, #f1da36);
+    padding-left: 25%;
+}
+h4 {
+    font-size: 1.5em;
+    margin: 5%;
+}
+h5 {
+    font-size: 3em;
+    margin: 5%; 
+}
+li {
+    font-size: 2em;
+    margin: 5%;  
+    margin-left: 0%;
+    list-style-type: none
+}
+p {
+    text-align: justify;
+    font-size: 2em;
+}
+.body-am {
+    padding: 2%;
+}
+.code {
+    font-size: 2em;
+    margin: 5%;  
+}
+.fotter-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-div-rs {
+    width: 10%;
+}
+.footer-div-year{
+    margin-right: 0%;
+}
+.footer-div-git img{
+    width: 3.5em;
+    padding-right: 0%;
+}
+footer {
+}
+.container-header-nav-ul-li {
+margin-left: 2%;
+margin-right: 2%;
+width: auto;
+}
+.photo {
+padding-bottom: 5%;
+margin-bottom: 10%;
+}
+a {
+    text-decoration: none;
+    font-size: 0,5em;
+    margin: 0em;
+    color: black;
+}
+a:active {
+    background-color: #f1da36;
+    text-decoration: none;
+    color:black;
+}
+a:hover {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+.side-contact-project {
+margin-left: -45%;
+}
