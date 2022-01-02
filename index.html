@@ -1,16 +1,152 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <div>
-    <div>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class = "container">
+      <header>
+        <nav class = "container-header-nav">
+          <ul class = "container-header-nav-ul">
+            <li class="container-header-nav-ul-li"><a href="#1">About me</a></li>
+            <li class="container-header-nav-ul-li"><a href="#3">My contact ditailes</a></li>
+            <li class="container-header-nav-ul-li"><a href="#4">Strengths</a></li>
+            <li class="container-header-nav-ul-li"><a href="#5">Skills</a></li>
+            <li class="container-header-nav-ul-li"><a href="#6">Code</a></li>
+            <li class="container-header-nav-ul-li"><a href="#7">Education</a></li>
+            <li class="container-header-nav-ul-li"><a href="#2">Languages</a></li>
+            <li class="container-header-nav-ul-li"><a href="#8">Project</a></li>
+          </ul>
+        </nav>
+      </header>
+    <div class="body-conteiner">
+      <aside class="side">
+          <div class="photo">
+            <img src="./Avatar-2.jpg" alt="Avatar">
+          </div>
+          <div class="side-contact">
+            <h5> 
+              <a id = "3">
+                </a>My contact ditailes:
+              </h5>
+                <ul>
+                  <li>
+                    <a href="">Tel: +7 (920) 381 01 80</a>
+                  </li>
+                  <li>
+                    <a href="">Telegram: @Nekipit</a>
+                  </li>
+                  <li>
+                    <a href="mailto:nekipelovaa@icloud.com">E.mail: nekipelovaa@icloud.com</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/Nekipel">GitHub: Nekipel</a>
+                  </li>
+                </ul>
+          </div>
+          <div>
+            <h5>
+              <a id  = "7">
+              </a>Education:
+            </h5>
+                <h4>KOSTROMA STATE UNIVERSITY:
+                </h4>
+                <ul>
+                  <li>Institute of Management, Economics and Finance 2008-2013
+                  </li>
+                  <li>Institute of Law named after Yuriy Novitskiy 2014-2018
+                  </li>
+                </ul>
+          </div>
+          <div class="side-contact-project">
+            <h5>Project:
+              <a id  = "9">
+              </a>
+            </h5>
+                <ul>
+                  <li>
+                    <a href="https://nekipel.github.sio/rsschool-cv/cv">CV
+                    </a>
+                </ul>
+          </div>
+      </aside>
+      <main class="body-conteiner-main">
+        <h1 class = "bode-name">Nekipelov Anatoly
+        </h1>
+        <h2 class="header-text-h2">Front-End Developer
+        </h2>
+        <div>
+          <h3>
+            <a id  = "1">
+            </a>About me:
+          </h3>
+          <p class="body-am">
+          I am 30 years old and have been working for the last seven years in the field of logistics and construction. Starting from school, I always wanted to work in the IT field, but for various reasons put it off. Now I know exactly what I need to do and I'm sure it's mine and I need it.
+          </p>
+        </div>
+        <div>
+          <a id  = "4">
+          </a>
+          <h3>My strengths:
+          </h3>
+          <ul>
+            <li>Quick learner</li>
+            <li>Industriousness</li>
+            <li>Teamwork</li>
+            <li>Judiciousness</li>
+            <li>Honesty</li>
+          </ul>
+        </div>
+        <div>
+          <a id  = "5">
+          </a>
+          <h3>Skills:</h3>
+          <ul>
+            <li>Git/GitHub</li>
+            <li>Avocode</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul> 
+        </div>
+        <div>
+          <a id  = "6">
+          </a>
+          <h3>Code:</h3>
+        <div class="code">
+          <code>function pas(str) {
+          return str.split("").fill("#",0,(str.length-3&&str.length-4)).join("").trim()}
+          </code>
+        </div>
+        </div>
+        <div><a id  = "2"></a>
+          <h3>Languages:</h3>
+          <ul>
+            <li>Russian - native</li>
+            <li>English - A2</li>
+          </ul>
+        </div>
+      </main>
     </div>
-  </div>
-</body>
+    <footer class="fotter-flex"> 
+      <div class="footer-div-rs">
+        <a href="https://rs.school/js/">
+          <img src="/rs_school_js.svg" alt="Logo"></a>
+      </div>
+      <div class="footer-div-year">
+        <h4>2021
+        </h4>
+      </div>
+      <div class="footer-div-git">
+        <a href="https://github.com/Nekipel">
+          <img src="./25231.png" alt="GitHub">
+        </a>
+      </div>
+    </footer>
+    </div>
+  </body>
 </html>
