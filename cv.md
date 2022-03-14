@@ -1,4 +1,4 @@
-# Nekipelov Anatoly
+## Nekipelov Anatoly
 ![Image](https://raw.githubusercontent.com/Nekipel/rsschool-cv/gh-pages/Avatar-2.jpg "icon")
 ## My contact ditailes:
 * Tel. +7 (920) 381 01 80
