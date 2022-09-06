@@ -1,1 +1,1 @@
-* https://Nekipel.github.io/rsschool-cv/cv
+* https://nekipel.github.io/rsschool-cv/
